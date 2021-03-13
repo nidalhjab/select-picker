@@ -1,0 +1,59 @@
+.container {
+    background-color: lightgray;
+    padding: 50px;
+}
+
+.select-picker {
+    width: 201px;
+    height: 205px;
+    font-size: 12px;
+    position: relative;
+    background-color: #FFF;
+}
+
+.select-search {
+    padding: 15px;
+}
+
+.select-search input {
+    padding: 10px 0 20px 0px;
+    border: none;
+    text-align: left;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 1px solid #c3c3c3;
+    font-size: 12px;
+}
+
+.select-picker .item-wrapper {
+    overflow-y: auto;
+    height: 129px;
+}
+
+.select-picker .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    cursor: default;
+}
+
+.item-name {
+    margin: 8px 0;
+    font-weight: 500;
+}
+.selected {
+    pointer-events: none;
+    color: #c3c3c3;
+}
+
+.select-picker .item:hover,
+.select-picker .item:hover img {
+    color: #3ebfcf;
+}
+
+.select-picker .item:hover svg {
+    fill: #3ebfcf;
+}

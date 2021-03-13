@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'Avenir';
+  src:url('./assets/fonts/Metropolis-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Metropolis Regular Italic'), local('Metropolis-RegularItalic'),
+      url('./assets/fonts/Metropolis-RegularItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Metropolis Light'), local('Metropolis-Light'),
+      url('./assets/fonts/Metropolis-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Extra';
+  src: local('Metropolis Extra Bold'), local('Metropolis-ExtraBold'),
+      url('./assets/fonts/Metropolis-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Metropolis Black Italic'), local('Metropolis-BlackItalic'),
+      url('./assets/fonts/Metropolis-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Metropolis Bold Italic'), local('Metropolis-BoldItalic'),
+      url('./assets/fonts/Metropolis-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Metropolis Regular'), local('Metropolis-Regular'),
+      url('./assets/fonts/Metropolis-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Extra';
+  src: local('Metropolis Extra Light'), local('Metropolis-ExtraLight'),
+      url('assets/fonts/Metropolis-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Extra';
+  src: local('Metropolis Extra Light Italic'), local('Metropolis-ExtraLightItalic'),
+      url('assets/fonts/Metropolis-ExtraLightItalic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Metropolis Medium'), local('Metropolis-Medium'),
+      url('assets/fonts/Metropolis-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Metropolis Black'), local('Metropolis-Black'),
+      url('assets/fonts/Metropolis-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Metropolis Medium Italic'), local('Metropolis-MediumItalic'),
+      url('assets/fonts/Metropolis-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Metropolis Bold'), local('Metropolis-Bold'),
+      url('assets/fonts/Metropolis-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Extra';
+  src: local('Metropolis Extra Bold Italic'), local('Metropolis-ExtraBoldItalic'),
+      url('assets/fonts/Metropolis-ExtraBoldItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Metropolis Thin Italic'), local('Metropolis-ThinItalic'),
+      url('assets/fonts/Metropolis-ThinItalic.woff2') format('woff2');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Semi';
+  src: local('Metropolis Semi Bold Italic'), local('Metropolis-SemiBoldItalic'),
+      url('assets/fonts/Metropolis-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Metropolis Thin'), local('Metropolis-Thin'),
+      url('assets/fonts/Metropolis-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Semi';
+  src: local('Metropolis Semi Bold'), local('Metropolis-SemiBold'),
+      url('assets/fonts/Metropolis-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Avenir' ,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+*{
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
